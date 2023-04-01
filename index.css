@@ -1,5 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    width: 1440px;
 }
 .navbar {
     display: flex;
@@ -37,7 +38,7 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     /* justify-content: flex-end; */
 }
 .list-home {
@@ -78,7 +79,8 @@ body {
 }
 .button-start {
     display: flex;
-    flex-direction: row;
+    flex: none;
+    /* flex-direction: row; */
     justify-content: center;
     margin-left: 28px;
     margin-top: 12px;
@@ -92,7 +94,7 @@ body {
     font-size: 14px;
     order: 0;
     padding: 10px 12px;
-gap: 8px;  
+    /* gap: 8px;   */
     border: 0;
 }
 /*  */
@@ -158,12 +160,12 @@ gap: 8px;
     color: #FFFFFF;
 }
 .viscont-div {
-    width: 687px;
+    /* width: 607px; */
     height: 458px;
-    margin: 110px 47px 74px 131px;
+    margin: 110px 40px 74px 131px;
 }
 .visual-content {
-    width: 687px;
+    width: 715px;
     height: 458;;
     display: flex;
     flex-direction: center;
