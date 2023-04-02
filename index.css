@@ -1,6 +1,6 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    width: 1440px;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* width: 1440px; */
     padding: 0;
     margin: 0;
 }
@@ -272,16 +272,12 @@ body {
 .third-div {
     display: flex;
     flex-direction: column;
-    height: 2386px;
+    /* height: 892px; */
     background-color: #F1F1F1;
 }
 .td-1cel {
     display: flex;
     flex-direction: column;
-}
-.td-2cel {
-    display: flex;
-    flex-direction: row;
 }
 .td-1cel-1col {
     margin: 100px 865px 32px 80px;
@@ -293,85 +289,94 @@ body {
     display: flex;
     flex-direction: row;
 }
+
 .form {
-    margin: 0 32px 141px 80px;
+    margin: 0 0 141px 80px;
 }
 .button-findJob {
     /* margin: 288px 627px 157px 0; */
+    /* height: 20px; */
     background-color: #712FFF;
+}
+.container {
+    display: flex;
+    flex-direction: row;
 }
 .form{
     display: flex;
     flex-direction: row;
-    padding: 2px;
-    border: 1px solid;
-    border-radius: 5px;
-}
-.form-search {
-    margin: 13px 12px 13px 13px;
-}
-.form-text {
-    margin: 14px 75px 14px 0; 
-}
-.search-field {
+    /* padding: 2px; */
+    background-color: #FFFFFF;
+    border: 1px solid #E1DEE7;
+    border-radius: 12px;
+    margin-bottom: 0;
     height: 50px;
     width: 619px;
-    /* font-size: 14px; */
-    /* background-color: #fff; */
-    /* border: 1px solid #000; */
-    /* box-shadow: none; */
-    /* -webkit-appearance: none; */
-    border-radius: 12px;
+    /* flex: none; */
+}
+.form-search {
+    height: 24px;
+    width: 24px;
+    margin: 13px 12px 13px 13px;
+}
+.search-field {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 495px;
     background: #FFFFFF;
     border: 1px solid #E1DEE7;
-    background-image: url("assets/Search.png");
-    background-repeat: no-repeat;
-    background-position: left center;
-    padding: 13px;
+    
 }
 input[type="search"] {
+    display: flex;
+    flex-direction: row;
     border: none;
-  background: transparent;
-  margin: 0;
-  padding: 7px 8px;
+  /* margin: 0; */
+  /* padding: 7px 8px; */
   font-size: 14px;
-  color: inherit;
+  /* color: inherit; */
   border: 1px solid transparent;
   border-radius: inherit;
 }
 input[type="search"]::placeholder {
     color: #bbb;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
   }
   button[type="submit"] {
-    text-indent: -999px;
-    overflow: hidden;
-    width: 40px;
-    padding: 0;
-    margin: 0;
-    border: 1px solid transparent;
-    border-radius: inherit;
-    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
-    cursor: pointer;
-    opacity: 0.7;
+    margin: 0px 603px 0px 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 106px;
+    height: 50px;
+    background: #712FFF;;
+    border-radius: 100px;    
+    align-items: center;
+    border: 0;
+    /* padding: 0; */
   }
-  
-  button[type="submit"]:hover {
-    opacity: 1;
-  }
-  button[type="submit"]:focus,
-input[type="search"]:focus {
-  box-shadow: 0 0 3px 0 #1183d6;
-  border-color: #1183d6;
-  outline: none;
+.button-findJob-text {
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 500;
+    width: 58px;
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
 }
-
-
 .td-2cel {
     display: flex;
     flex-direction: row;
 }
 .td-2cel-img {
-    margin: 40px 87px 40.33px 40px;
+    margin: 121px 107px 40.33px 40px;
+    padding: 20px 40px;
+    padding-bottom: 0;
 }
 .td-2cel-right {
     display: flex;
@@ -380,28 +385,33 @@ input[type="search"]:focus {
 .td-2cel-right-1col {
     width: 391px;
     height: 56px;
-    /* font-family: 'Kanit'; */
-    /* font-style: normal; */
-    /* font-weight: 600; */
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
     font-size: 50px;
     line-height: 56px;
     display: flex;
     align-items: center;
     text-align: left;
     color: #000000;
-    margin: 157px 222px 32px 0px;
-    /* flex: none; */
-/* order: 0; */
-/* flex-grow: 0; */
+    margin: 267px 222px 32px 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 .td-2cel-right-2col {
     margin: 0 118px 32px 0px;
     width: 495px;
     height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     line-height: 22px;
     align-items: center;
     color: #000000;
+    flex:none;
+    order: 0;
 }
 .button-upload {
     display: flex;
@@ -430,4 +440,97 @@ input[type="search"]:focus {
     line-height: 18px;
     text-align: center;
     color: #FFFFFF;
+}
+.footer {
+    height: 172px;
+    background-color: #FFFFFF;
+    border-radius: 32px 32px 0px 0px;
+    order: 5;
+    padding: 0;
+    margin: 0;
+    gap: 32px;
+    /* padding: 32px 80px; */
+    /* align-self: stretch; */
+/* flex-grow: 0; */
+}
+.foo-unlists {
+    display: flex;
+    flex-direction: row;
+}
+.foo-lists {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    /* justify-content: flex-end; */
+}
+.foo-list-home {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    list-style-type: none;
+    margin: 42px 40px 52px 92px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    width: 40px;
+    height: 18px;
+}
+.foo-list-about {
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-top: 42px;
+    list-style-type: none;
+    font-size: 14px;
+    width: 64px;
+    height: 18px;
+}
+.foo-list-howItWorks {
+    /* display: flex; */
+    /* flex-direction: row; */
+    margin-top: 42px;
+    list-style-type: none;
+    margin-left: 40px;
+    font-size: 14px;
+    width: 99px;
+    height: 18px;
+}
+.logo-inst, .logo-twit {
+    height: 24px;
+    /* margin-top: 39px; */
+}
+.logo-twit {
+    margin: 39px 8px 49px 28px;
+}
+.logo-inst {
+    margin: 39px 117px 49px 8px;
+}
+.foo-text {
+    width: 779px;
+    height: 18px;
+    margin: 42px 92px 52px 0;
+    opacity: 50%;
+    font-size: 14px;
+    text-align: center;
+    padding: 0;
+    /* background-color: #081E34; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+}
+.footer-2col {
+    width: 1440px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* height: 18px; */
+    /* width: 248px; */
+}
+.foo-2col-img {
+    flex: none;
+    height: 18px;
+    margin-right: 52px;
+    margin-bottom: 42px;
+    padding-right: 92px;
 }
