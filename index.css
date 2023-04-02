@@ -5,6 +5,7 @@ body {
     margin: 0;
 }
 .first-div {
+    width: 1440px;
     /* height:  */
 }
 .navbar {
@@ -17,8 +18,8 @@ body {
     flex-direction: row;
     margin-left: 80px;
     margin-top: 20px;
-    width: 15px;
-    height: 15px;
+    width: 22px;
+    height: 18.68px;
 }
 .tap {
     /* display: flex;
@@ -31,9 +32,10 @@ body {
     text-transform: capitalize;
     width: 86px;
     height: 22px;
-    /* font-family: 'Kanit'; */
-    font-style: bold;
+    font-family: 'Kanit';
+    font-style: normal;
     font-weight: 500;
+    color: #000000;
 }
 .unlists {
     display: flex;
@@ -50,6 +52,7 @@ body {
     /* display: flex; */
     /* flex-direction: row; */
     /* justify-content: center; */
+    font-family: 'Inter';
     list-style-type: none;
     margin-left: 760px;
     margin-top: 22px;
@@ -59,53 +62,80 @@ body {
     line-height: 18px;
     width: 40px;
     height: 18px;
+    color: #081E34;
 }
 .list-about {
     /* display: flex; */
     /* flex-direction: row; */
+    font-family: 'Inter';
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
     margin-left: 12px;
     list-style-type: none;
     margin-left: 40px;
     margin-top: 22px;
-    font-size: 14px;
     width: 64px;
     height: 18px;
+    color: #081E34;
 }
 .list-howItWorks {
     /* display: flex; */
     /* flex-direction: row; */
+    font: 'Inter';
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
     margin-left: 12px;
     list-style-type: none;
     margin-left: 40px;
     margin-top: 22px;
-    font-size: 14px;
-    width: 99px;
+    width: 87px;
     height: 18px;
+    color: #081E34;
 }
 .button-start {
     display: flex;
     flex: none;
     /* flex-direction: row; */
     justify-content: center;
-    margin-left: 28px;
-    margin-top: 12px;
-    margin-right: 87.32px;
+    margin: 12px 87.32px 0px 28px;
     width: 102px;
     height: 38px;
     background: rgba(8, 30, 52, 0.12);
     border-radius: 100px;    
     align-items: center;
     text-align: center;
-    font-size: 14px;
-    order: 0;
-    padding: 10px 12px;
-    /* gap: 8px;   */
+    order: 3;
+    gap: 8px;  
     border: 0;
+}
+.button-start-text {
+    color: #081E34;
+    padding: 10px 12px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
 }
 /*  */
 .main-part {
     display: flex;
     flex-direction: row;
+    width: 1440px;
+    margin: 0;
+    padding: 0;
 }
 .intro-text {
     display: flex;
@@ -113,26 +143,42 @@ body {
     margin-top: 147px;
     margin-left: 80px;
     margin-bottom: 127px;
-    width: 495px;
+    
 }
 .viscont1-text {
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
     width: 495px;
     height: 192px;
-    /* font-weight: 700; */
-    font-size: 54px;
     line-height: 64px;
     padding-top: 0;
-    margin-top: 0;
+    margin-top: 0px;
     margin-bottom: 0;
-
+    display: flex;
     /* align-items: center; */
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 .viscont1-small-text {
     width: 495px;
     height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
-    /* margin-top: 32px; */
-    /* align-items: center; */
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 32px;
+    margin-bottom: 48px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 .button-work {
     display: flex;
@@ -155,6 +201,7 @@ body {
 .button-work-text {
     width: 96px;
     height: 18px;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -167,11 +214,10 @@ body {
 .viscont-div {
     /* width: 607px; */
     height: 458px;
-    margin: 110px 40px 74px 131px;
+    margin: 110px 20px 74px 131px;
 }
 .visual-content {
     width: 715px;
-    height: 458;;
     display: flex;
     flex-direction: center;
     justify-content: center;
@@ -207,12 +253,12 @@ body {
     display: flex;
     justify-content: center;
     font-size: 54px;
-    /* line-height: 56px; */
+    line-height: 56px;
     color: #000000;
     /* margin: 0; */
-    /* font-family: 'Kanit'; */
+    font-family: 'Kanit';
     font-style: normal;
-    /* font-weight: 700; */
+    font-weight: 700;
     /* height: 56px; */
     margin-bottom: 86px;;
 }
@@ -244,29 +290,52 @@ body {
     width: 400px;
     height: 28px;
     font-size: 24px;
-    /* font-weight: 700; */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
     margin: 0 40px 24px 80px;
 }
 .first-col-3cell {
     margin: 0 40px 103px 80px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
 }
 .second-col-2cell {
     width: 400px;
     height: 28px;
     font-size: 24px;
     margin: 0 40px 24px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
 }
 .second-col-3cell {
     margin: 0 40px 103px 0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
 }
 .third-col-2cell {
     width: 400px;
     height: 28px;
     font-size: 24px;
-    margin: 0 80px 24px 0;
+    margin: 0 60px 24px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
 }
 .third-col-3cell {
-    margin: 0 80px 103px 0;
+    margin: 0 40px 103px 0;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
 }
 
 .third-div {
@@ -281,9 +350,19 @@ body {
 }
 .td-1cel-1col {
     margin: 100px 865px 32px 80px;
+    font-family: 'Kanit';
+font-style: normal;
+font-weight: 700;
+font-size: 54px;
+line-height: 64px;
 }
 .td-1cel-2col {
     margin: 0 865px 32px 80px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
 }
 .td-1cel-3col {
     display: flex;
@@ -359,7 +438,7 @@ input[type="search"]::placeholder {
     /* padding: 0; */
   }
 .button-findJob-text {
-    /* font-family: 'Inter'; */
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     width: 58px;
@@ -388,19 +467,19 @@ input[type="search"]::placeholder {
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 54px;
     line-height: 56px;
     display: flex;
     align-items: center;
     text-align: left;
     color: #000000;
-    margin: 267px 222px 32px 0px;
+    margin: 267px 202px 32px 0px;
     flex: none;
     order: 0;
     flex-grow: 0;
 }
 .td-2cel-right-2col {
-    margin: 0 118px 32px 0px;
+    margin: 0 98px 32px 0px;
     width: 495px;
     height: 44px;
     font-family: 'Inter';
@@ -434,6 +513,7 @@ input[type="search"]::placeholder {
     flex-direction: row;
     width: 48px;
     height: 18px;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -471,6 +551,7 @@ input[type="search"]::placeholder {
     list-style-type: none;
     margin: 42px 40px 52px 92px;
     font-size: 14px;
+    font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     line-height: 18px;
@@ -480,6 +561,7 @@ input[type="search"]::placeholder {
 .foo-list-about {
     /* display: flex; */
     /* flex-direction: row; */
+    font-family: 'Inter';
     margin-top: 42px;
     list-style-type: none;
     font-size: 14px;
@@ -489,6 +571,7 @@ input[type="search"]::placeholder {
 .foo-list-howItWorks {
     /* display: flex; */
     /* flex-direction: row; */
+    font-family: 'Inter';
     margin-top: 42px;
     list-style-type: none;
     margin-left: 40px;
